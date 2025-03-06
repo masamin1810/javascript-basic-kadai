@@ -5,7 +5,7 @@ let num = Math.floor(Math.random() * 16);
 console.log(num);
 
 // 変数numの値が15であれば「3と5の倍数です」という文字列を出力する
-if (num === 15) { 
+if (num % 3 === 0 && num % 5 === 0){
   console.log('3と5の倍数です');
 }
 
